@@ -1,0 +1,359 @@
+/*RESPONSIVE TOPNAVBAR*/
+.topnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+.topnav a {
+    align-content: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    opacity: 0.5;
+}
+.topnav a:hover {
+    background-color: rgb(214, 45, 45);
+    color: white;
+}
+.topnav .icon {
+    display: none;
+}
+
+/*MEDIA QUERY NAVBAR*/
+@media screen and (max-width: 655PX) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+@media screen and (max-width: 655px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+ /*SECCION PORTADA*/
+body {
+    font-family:'Lora',serif;
+}
+#portada {
+    width: 100%;
+    background-image: url(/img/banner-bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*ANIMACION CSS*/
+.efecto_parrafo {
+  animation-duration: 3s;
+  animation-name: slidein;
+  color:white;
+  padding-top: 1em;
+  padding-left: 1em;
+  color: indianred;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/*FIN ANIMACION*/
+
+/*SECCION QUIEN SOY*/
+#quien{
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: indianred;
+}
+.titulo {
+    font-weight: 900;
+    color: indianred;
+    text-align: center;
+}
+#quien>article h1{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 0.5rem; 
+}
+#quien>article h2{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color:black;
+}
+#quien>article img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding-bottom: 0.5rem;
+}
+#quien>article p {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+/*SECCION ESTUDIOS*/
+#estudios{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#estudios, .flexbox-container{
+    background-color:#333;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+#estudios h1{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: indianred;
+}
+#estudios h3{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color:white;
+}
+
+/*CONTENEDOR FLEX*/
+.flexbox-container {
+    display: flex;
+}
+.flexbox-container>div {
+    width: 100%;
+    padding: 20px;
+    background: #333;
+}
+.flexbox-container>div:first-child {
+    margin-right: 10px;
+}
+/*CAJAS RESPONSIVES*/
+
+.responsive, .html, .javascript{
+    text-align: center;
+    width: 100%;
+}
+.responsive>i, .html>i, .javascript>i{
+    font-size: 100px;
+    color: white;
+}
+.responsive>i>h3, .html>i>h3, .javascript>i>h3 {
+    font-size: 50px;
+    color: white;
+    padding-top: 1rem;
+}
+.responsive>i>p, .html>i>p, .javascript>i>p{
+    font-size: 20px;
+    color: white;
+}
+
+/*SECCION EXPERIENCIA*/
+#experiencia{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#experiencia h1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: indianred;
+}
+.experiencia>a {
+    padding-left: 3rem;
+    font-size: 85px;
+}
+/*DISPLAY GRID*/
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    background-color: indianred;;
+    padding: 10px;
+}
+.grid_item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #333;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*SECCION SOBRE MI*/
+#sobre {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    background-color: #333;
+}
+#sobre>h2{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    color: indianred;
+}
+#sobre>h3 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+}
+.sobre>video{
+    height: 450px;
+    width: 450px;
+}
+.sobre>p{
+    text-align: center;
+}
+
+/*SECCION CONTACTO*/
+#contacto{
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#contacto>header>h2{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    color: indianred;
+}
+
+/*FORMULARIO*/
+
+.miLista{
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.miLista > div{
+    width: 100%;
+    padding: 10px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+}
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+}
+input[type=tel],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+}
+textarea,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: white;
+}
+
+.submit {
+    width: 33%;
+    background-color: indianred;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #333;
+}
+
+/*FOOTER*/
+
+.redes_sociales{
+    display: flex;
+    justify-content: center;
+}
+
+footer>nav>ul>li{
+    align-content: center;
+}
+
+footer>nav>ul>li>a:hover{
+    color: indianred;
+}
+
+footer>nav>ul>li>a>i{
+    padding: 1rem;
+    font-size: 100px;
+}
+
+footer>p{
+    text-align: center;
+}
+
+p>span{
+    color: indianred;
+}
