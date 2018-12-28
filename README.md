@@ -208,6 +208,36 @@ No bloquees archivos CSS ni JavaScript en el robots.txt
  
 Robots.txt es usado para que no rastree no para que no indexe 
 
+#### GOOGLE WEBMASTER TOOL
+
+Verficamos la propiedad de nuestra web
+
+Para comprobar que indexamos todo lo que enviamos tenemos la herramienta GOOGLE WEBMASTER TOOL
+
+Comprobamos errores en genral de nuestra web y del sitemap.xml en particular
+
+#### WPO (Web Performance Optimization) 
+
+Comprobamos velocidad de carga y demás parametros:
+
+https://developers.google.com/speed/
+
+https://gtmetrix.com/
+
+https://www.webpagetest.org/
+
+https://tools.pingdom.com/
+
+
+
+
+
+
+
+
+
+
+
 
  
  
