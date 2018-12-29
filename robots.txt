@@ -1,2 +1,2 @@
-User-agent: Googlebot
-Disallow: /
+User-Agent: *
+Sitemap: http://rey.rockstardevops.com/sitemap.xml

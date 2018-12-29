@@ -10,14 +10,4 @@
         <image:title>foto principal CV VITAE</image:title>
       </image:image>
   </url>
-  <url>
-    <loc>http://rey.rockstardevops.com/index.html</loc>
-    <lastmod>2018-12-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-      <image:image>
-        <image:loc>http://rey.rockstardevops.com/img/foto-principal-cv-vitae-samuel.jpg</image:loc>
-        <image:title>foto principal CV VITAE</image:title>
-      </image:image>
-  </url>
 </urlset>

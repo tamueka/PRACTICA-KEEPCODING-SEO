@@ -1,12 +1,12 @@
 # PRACTICA-KEEPCODING-SEO
 
-## OPTIMIZACION ON PAGE SEO
+## Curriculum Vitae Samuel Ruiz de la Rosa FULLSTACK JAVASCRIPT MEAN
+
+### OPTIMIZACION ON PAGE SEO
 
 ---
 
-### ETIQUETAS
-
-#### TITLE, DESCRIPTION, URL
+#### ETIQUETAS TITLE, DESCRIPTION, URL
 
 TITLE: Descripción única de mi contenido engloba a todo eldocumento
 
@@ -44,13 +44,17 @@ Ver resultado:
 
 ![Image of Google SERP Snippet Optimization Tool](http://rey.rockstardevops.com/img/seo.png)
 
+---
 
 #### ENCABEZADO
 
-Utilizar una correcta jerarquia:
+Utilizar una correcta jerarquia es muy importante para el SEO
+
+Es muy importante solo utilizar un H1 por pagina
 
 h1 h2 h3 h4 h5 h6
 
+---
 
 #### IMAGENES
 
@@ -70,11 +74,15 @@ Tráfico a través de Google Image – Cuida el SEO
 
 img src=“” alt=“” title=“”
 
+---
+
 #### METAKEYWORDS
 
 Google no las tiene en cuenta desde 2009
 Ni penalizan, ni posicionan. Insisto: no sirven para nada
 Te ayuda a conocer las palabras clave de tus competidores 
+
+---
 
 #### DOFOLLOW , NO FOLLOW
  
@@ -85,6 +93,8 @@ Es una etiqueta exclusiva para enlaces
 Nofollow = no sigo rastreando y no paso autoridad
 
 Usamos nofollow cuando hay enlaces de pago 
+
+---
 
 #### PROMINENCIA ON PAGE
 
@@ -98,6 +108,8 @@ Usamos nofollow cuando hay enlaces de pago
 8. Alt imágenes
 9. Recursos externos (Imágenes & vídeos)
 10. Negritas 
+
+---
 
 #### CODIGOS DE ESTADO HTTP
 
@@ -117,11 +129,14 @@ Usamos nofollow cuando hay enlaces de pago
 
 503 Servicio no disponible – Importante!! Para que Google entienda que  estamos trabajando en el Servidor 
 
+---
+
 #### ERROR 404
 
 Creamos una web de error 404 amigable:
 http://rey.rockstardevops.com/404.html
 
+---
 
 #### CANONICAL
 2 o + URL distintas, y mismo contenido
@@ -135,11 +150,13 @@ link rel="canonical" href="http://www.cuidateplus.com/alimentacion/diccionario/l
 **Su HTML debe llevar la etiqueta «canonical» hacía sí
 misma. Es decir en el enlace de la URL exacta. 
 
+----
+
 #### HREFLANG
 
 Dadas 2 urls con contenido traducido a otro idioma debemos indicárselo a google, en la cabecera 
-HTML. 
- 
+HTML.
+
 http://www.dominio.com/en/ 
 ESTRUCTURA de URLs para diferentes idiomas 
 META ETIQUETAS –>  rel="alternate" hreflang="x" 
@@ -151,6 +168,8 @@ Utilizamos subdirectorios gTLD
 link  rel="alternate"  hreflang="x-default"  href="http://example.com/"
 link  rel="alternate"  hreflang="de"  href="http://example.com/de/" 
 link  rel="alternate"  hreflang="de-DE"  href="http://example.com/de-de/" 
+
+---
 
 #### SITEMAP
 
@@ -165,6 +184,8 @@ https://www.sitemaps.org/es/protocol.html
 
 Web que nos crea sitemap:
 https://www.xml-sitemaps.com/
+
+---
 
 ####ROBOTS.TXT
 
@@ -208,6 +229,8 @@ No bloquees archivos CSS ni JavaScript en el robots.txt
  
 Robots.txt es usado para que no rastree no para que no indexe 
 
+---
+
 #### GOOGLE WEBMASTER TOOL
 
 Verficamos la propiedad de nuestra web
@@ -215,6 +238,8 @@ Verficamos la propiedad de nuestra web
 Para comprobar que indexamos todo lo que enviamos tenemos la herramienta GOOGLE WEBMASTER TOOL
 
 Comprobamos errores en genral de nuestra web y del sitemap.xml en particular
+
+---
 
 #### WPO (Web Performance Optimization) 
 
@@ -227,29 +252,3 @@ https://gtmetrix.com/
 https://www.webpagetest.org/
 
 https://tools.pingdom.com/
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-## Curriculum Vitae Samuel Ruiz de la Rosa FULLSTACK JAVASCRIPT MEAN
